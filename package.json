@@ -1,13 +1,19 @@
 {
-  "name": "myapp",
+  "name": "mywebpack",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "author": "Caption",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/czhongx123/webpackDemo.git"
+  },
+  "author": "",
   "license": "ISC",
-  "dependencies": {},
-  "devDependencies": {}
+  "bugs": {
+    "url": "https://github.com/czhongx123/webpackDemo/issues"
+  },
+  "homepage": "https://github.com/czhongx123/webpackDemo#readme"
 }

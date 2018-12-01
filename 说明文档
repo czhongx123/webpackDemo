@@ -1,4 +1,0 @@
-项目新建步骤：
-
-1.进入文件夹：然后npm init,初始化文件夹
-2.安装webpack: npm i webpack -S
