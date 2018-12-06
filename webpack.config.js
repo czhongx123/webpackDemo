@@ -7,7 +7,7 @@ module.exports = {
     entry: './index.js',
     output: {
         path: path.resolve(__dirname, 'dist'), //目录对应一个绝对路径
-        filename: '[name]-bundle.js'
+        filename: '[name]-[hash].js'
         // publicPath:'https://cdn.com/assets/'//输出解析文件的目录，url相对于html页面
     },
     devtool: 'inline-source-map',//便于精准定位打包过程中的错误（仅解释说明，不要用于生产环境）
